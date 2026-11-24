@@ -5,7 +5,7 @@ import hashlib
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-LINE = "It retried the make.fun kit endpoint for forty straight minutes printing \u201ckit pending\u201d, then marked the bounty hopeless \u2014 two minutes before it finally answered."
+LINE = "It retried the make.fun kit endpoint for forty straight minutes printing \u201ckit pending\u201d, then marked the bounty hopeless - two minutes before it finally answered."
 
 def main():
     output_dir = os.environ.get('MAKEFUN_OUTPUT_DIR', '/output')
